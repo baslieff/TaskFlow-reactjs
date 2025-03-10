@@ -3,7 +3,15 @@ import Heroes from './Heroes';
 import Standard from './Standard'; 
 import Features from "./Features"
 import AppPricing from "./AppPricing";
+import Test from "../screens/test";
+// import { useState } from "react";
+// import { useEffect } from "react";
 function Home(){
+//     const [zid,setZid]=useState(false);
+// useEffect(()=>{ 
+//     zid  && alert("yaatik saha")
+// },[zid])
+ 
     return(
         <>
         <section><Header/></section>
@@ -37,6 +45,32 @@ function Home(){
                 <section><AppPricing/></section>
        
         </>
+        // props
+        // component
+        // useState 
+        // useEffect  
+        // type de retour de state boolean string number 
+        // style condition backgroundColor: zid? "red":"yellow",
+        // <div
+        // style={{flex:1,justifyContent:"center",backgroundColor: zid? "red":"yellow",alignItems:"center", height:"100svh", padding:"25%" }}
+        // >
+            
+        // <Test content={"jshfjdfj dfhdj fdfj"}/>
+        // <Test content={"aaaaa aaa"}/>
+
+        // <p>{zid? "gg" : "ff"}</p>
+        // <button 
+        // onClick={
+        //     ()=>
+                
+        //         {
+        //             setZid(!zid)
+                    
+        //           }
+        //           }  >3aks</button>
+     
+      
+        //     </div>
     )
 }
 export default Home;
