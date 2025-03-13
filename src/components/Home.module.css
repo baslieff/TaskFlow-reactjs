@@ -1,0 +1,50 @@
+.deleteButton {
+    background-color: rgb(248, 82, 82);
+    color:white;
+    border: 1px solid #ff3b3b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color:rgb(255, 255, 255);
+  }
+    
+  
+    .editButton {
+     
+        background-color: #007bff;
+        color:rgb(250, 246, 246);
+        border: 1px solid #007bff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .editButton:hover  {
+          background-color: #0a58ca;
+          border-color: #007bff;
+          color: white;
+        }
+      
+  
+  .addButton {
+    background-color: #007bff;
+    color:rgb(250, 246, 246);
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .addButton:hover {
+    background-color: #0a58ca;
+    border-color: #007bff;
+    color: white;
+  }
+  

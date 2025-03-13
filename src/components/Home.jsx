@@ -3,7 +3,7 @@ import Heroes from './Heroes';
 import Standard from './Standard'; 
 import Features from "./Features"
 import AppPricing from "./AppPricing";
-import Test from "../screens/test";
+
 // import { useState } from "react";
 // import { useEffect } from "react";
 function Home(){

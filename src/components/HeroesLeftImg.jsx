@@ -22,7 +22,7 @@ export default function HeroesLeftImg(props) {
             className="img-fluid rounded shadow"
           />
         </div>
-        <div className="col-lg-6" style={{    height: "400px"}}>
+        <div className="col-lg-6" style={{ height:"400px", marginTop: "-20%"   }}>
 
           <h2 className="text-primary" style={{marginLeft:"1px"}}>{props.title1}</h2>
           <p className="h1 fw-bold" style={{marginTop:"10px"}}>{props.title2}</p>

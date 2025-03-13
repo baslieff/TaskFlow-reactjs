@@ -19,7 +19,10 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown } from "react-bootstr
                     navbarScroll
                   >
                     <NavDropdown title="Fonctionnalité" id="navbarScrollingDropdown">
-                      <NavDropdown.Item href="#action3">Views</NavDropdown.Item>
+                      <NavDropdown.Item as={Link} to="/Views">
+                        Views
+                      </NavDropdown.Item>
+                      <NavDropdown.Divider />
                       <NavDropdown.Item as={Link} to="/Automation">
                       Automation 
                       </NavDropdown.Item>
@@ -29,13 +32,15 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown } from "react-bootstr
                       </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Solution" id="navbarScrollingDropdown">
-                      <NavDropdown.Item href="#action3">Equipements Marketing</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item as={Link} to="EquipementsMarketing">
+                        Equipements Marketing
+                        </NavDropdown.Item>
+                      <NavDropdown.Item as={Link} to="StartUps">
                       Start-Ups 
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
-                      Planner
+                      <NavDropdown.Item as={Link} to="GestiondeProduit">
+                      Gestion de produit
                       </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Offres" id="navbarScrollingDropdown">

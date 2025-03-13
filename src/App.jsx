@@ -12,6 +12,11 @@ import AppPricing from "./components/AppPricing";
 import LoginForm from "./components/LoginForm";
 import SignupForm from "./components/SignupForm";
 import Header from "./components/Header";
+import { Kanban } from "lucide-react";
+import Views from "./components/Views";
+import EquipementsMarketing from "./components/EquipementsMarketing";
+import StartUps from "./components/StartUps";
+import GestiondeProduit from "./components/GestiondeProduit";
 function App() {
   
   return (
@@ -20,6 +25,11 @@ function App() {
 <Router>
   <Header />
       <Routes>
+      <Route path="/kanban" element={<Kanban />} />
+      <Route path="/Views" element={<Views />} />
+      <Route path="/EquipementsMarketing" element={<EquipementsMarketing />} />
+      <Route path="/StartUps" element={<StartUps />} />
+      <Route path="/GestiondeProduit" element={<GestiondeProduit />} />
         <Route path="/" element={<Home />} />
         <Route path="/Automation" element={<Automation />} />
         <Route path="/Planner" element={<Planner/>} />

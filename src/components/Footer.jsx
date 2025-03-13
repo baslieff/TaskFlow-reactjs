@@ -7,7 +7,7 @@ export default function Footer() {
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block' style={{textAlign:"center",marginLeft:"400px"}}>
-          <h2  >Get started with Trello today</h2>
+          <h2  >Get started with TaskFlow today</h2>
           <div>
           <Link type="button" className="btn btn-primary" as={Link} to="/SignupForm">Sign up</Link>
           </div>
@@ -28,7 +28,7 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>About us</h6>
               <p>
-              TaskFlow 🌐📌 is a Trello-like task management platform with drag-and-drop, customizable workflows, and real-time updates for seamless team collaboration. 🚀
+              TaskFlow 🌐📌 is a  task management platform with drag-and-drop, customizable workflows, and real-time updates for seamless team collaboration. 🚀
 
               </p>
             </MDBCol>
@@ -60,7 +60,7 @@ export default function Footer() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                smello@gmail.com
+                TaskFlow@gmail.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 216 54 015 938
