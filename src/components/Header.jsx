@@ -31,20 +31,27 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown } from "react-bootstr
                       Planner
                       </NavDropdown.Item>
                     </NavDropdown>
-                    <NavDropdown title="Solution" id="navbarScrollingDropdown">
-                      <NavDropdown.Item as={Link} to="EquipementsMarketing">
-                        Equipements Marketing
-                        </NavDropdown.Item>
-                      <NavDropdown.Item as={Link} to="StartUps">
-                      Start-Ups 
-                      </NavDropdown.Item>
-                      <NavDropdown.Divider />
-                      <NavDropdown.Item as={Link} to="GestiondeProduit">
-                      Gestion de produit
-                      </NavDropdown.Item>
-                    </NavDropdown>
+                    <NavDropdown
+          title="Solution"
+           id="navbarScrollingDropdown"
+     
+    >
+      <NavDropdown.Item as={Link} to="/EquipementsMarketing" >
+        Equipements Marketing
+      </NavDropdown.Item>
+      <NavDropdown.Divider />
+      <NavDropdown.Item as={Link} to="/StartUps" >
+        Start-Ups
+      </NavDropdown.Item>
+      <NavDropdown.Divider />
+      <NavDropdown.Item as={Link} to="/GestiondeProduit">
+        Gestion de produit
+      </NavDropdown.Item>
+      
+    </NavDropdown>
                     <NavDropdown title="Offres" id="navbarScrollingDropdown">
                       <NavDropdown.Item as={Link} to="/Standars">standard</NavDropdown.Item>
+                      <NavDropdown.Divider />
                        <NavDropdown.Item as={Link} to="/Premium">
                       Premium
                       </NavDropdown.Item>
